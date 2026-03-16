@@ -1,0 +1,5 @@
+CREATE TABLE vault (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    service TEXT NOT NULL,
+    password BLOB NOT NULL
+);
